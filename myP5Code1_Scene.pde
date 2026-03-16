@@ -1,16 +1,16 @@
-var bakeryLabels = ["Crossiants","Baguettes"];
+var Friendcontacts= ["Jaime","Gauche","Holly", "Delauren", "Backs"];
 
 setup = function() {
 
   size(400, 400); 
   background(0,0,0,0);
 
-  var crossiantX = 60;
-  textSize(30);
+  var beetleX = 72;
+  textSize(21);
 
-  while(crossiantX < 300){
-    text("🥐", crossiantX, 85);
-    crossiantX += 40;
+  while(beetleX < 92){
+    text("", crossiantX, 85);
+    crossiantX += 10;
   }
 
   textSize(15);
