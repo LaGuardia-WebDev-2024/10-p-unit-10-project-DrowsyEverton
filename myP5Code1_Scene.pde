@@ -16,8 +16,10 @@ setup = function() {
     
   }
 // final call
-var i=
-for()
+var i= 0;
+for(var i= 0; i < 120; i+=11){
+  
+}
 text ("Press 'C' to highlight your contact numbers.", 15,210);
  textSize(5);
 
